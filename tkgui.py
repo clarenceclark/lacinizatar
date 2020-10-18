@@ -3,6 +3,7 @@ from tkinter import *
 import tkinter as tk
 
 root=Tk()
+root.title('Lacinizatar') 
 
 REPLACEMENTS = (
     ('ль', 'l'),
@@ -125,7 +126,7 @@ def output():
 
 textBox=Text(root, height=25, width=100)
 textBox.pack()
-buttonCommit=Button(root, height=1, width=10, text="Commit", 
+buttonCommit=Button(root, height=1, width=10, text="Лацінізіраваць", 
                     command=lambda: output())
 #command=lambda: retrieve_input() >>> just means do this when i press the button
 buttonCommit.pack()
