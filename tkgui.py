@@ -4,6 +4,8 @@ import tkinter as tk
 
 root=Tk()
 root.title('Lacinizatar') 
+photo = PhotoImage(file = "logo.png")
+root.iconphoto(False, photo)
 
 REPLACEMENTS = (
     ('ль', 'l'),
