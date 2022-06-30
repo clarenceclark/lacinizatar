@@ -3,7 +3,7 @@
 from PyQt6.QtWidgets import QApplication,QWidget,QTextEdit,QVBoxLayout,QPushButton
 from PyQt6.QtGui import QIcon
 #
-#PyQt6 вместо PyQt5 и фугкция перенесенаа в класс
+#PyQt6 вместо PyQt5 и функция перенесена в класс
 #
 import sys
 
